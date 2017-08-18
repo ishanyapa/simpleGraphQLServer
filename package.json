@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ishanyapa/simpleGraphQLServer#readme",
   "dependencies": {
     "express": "^4.15.4",
-    "express-graphql": "^0.6.7"
+    "express-graphql": "^0.6.7",
+    "graphql": "^0.10.5"
   }
 }
