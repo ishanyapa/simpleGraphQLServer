@@ -4,7 +4,7 @@
   "description": "This is a simple GraphQL server",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "json:server": "json-server --watch data.json"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/ishanyapa/simpleGraphQLServer#readme",
   "dependencies": {
+    "axios": "^0.16.2",
     "express": "^4.15.4",
     "express-graphql": "^0.6.7",
-    "graphql": "^0.10.5"
+    "graphql": "^0.10.5",
+    "json-server": "^0.12.0"
   }
 }

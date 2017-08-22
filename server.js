@@ -13,9 +13,9 @@ app.use('/graphql',expressGraphQL({
 }));
 
 app.listen(port,(err) => {
-    if(err){
+    if (err) {
         console.log(err);
-    } else{
+    } else {
         console.log("Server is listening on "+port);
     }
 });
